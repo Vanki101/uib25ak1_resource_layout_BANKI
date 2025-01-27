@@ -1,0 +1,91 @@
+/* Grunnleggende sideoppsett */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E1E5EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Hovedcontainer med fast bredde og avrundede hjørner */
+main {
+    width: 800px;
+    background: #fff;
+    overflow: hidden;
+}
+
+/* Navigasjonsmeny med mørk bakgrunn */
+nav {
+    background-color: #2A324B;
+    display: flex;
+    width: 100%;
+}
+
+/* Styling for navigasjonsknapper */
+nav button {
+    background-color: #2A324B;
+    color: #fff;
+    border: none;
+    padding: 1.2rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 40%;  /* bredde for alle knapper */
+}
+
+/* Aktiv knapp */
+nav button.active {
+    background-color: #fff;
+    color: #2A324B;
+}
+
+/* Innholdsområde med padding */
+#resource-content {
+    padding: 3rem;
+}
+
+/* Overskrift */
+h2 {
+    color: #2A324B;
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Paragraf */
+p {
+    color: #2A324B;
+    margin: 0 0 2rem 0;
+    line-height: 1.6;
+}
+
+/* Liste */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 0 0 0.8rem 0;
+}
+
+/* Fjern margin på siste listeelement */
+ul li:last-child {
+    margin-bottom: 0;
+}
+
+/* Lenke-styling */
+a {
+    color: #58699D;
+    text-decoration: none;
+}
+
+/* Hover-effekt på lenker */
+a:hover {
+    text-decoration: underline;
+}
